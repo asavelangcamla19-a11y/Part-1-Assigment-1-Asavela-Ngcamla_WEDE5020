@@ -14,55 +14,80 @@
   <a href="ContactUS.html">ContactUSpage</a>
 
   <h1>Get In Touch</h1>
-<main>
- <form>
- <label for="Name">Name</label>  
- <input id="Name" Name="Name" required>
- <button type="submit">
- </form>   
-</main>
+<!-- Form Section -->
+        <section>
+            <form action="#" method="post">
+                <!-- Personal Details Fieldset -->
+                <fieldset>
+                    <legend><strong>Your Personal Information</strong></legend>
+                    <br>
+                    
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="e.g. Asavela Ngcamla" required><br><br>
+
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" placeholder="e.g. asavelangcamla@example.com" required><br><br>
+
+                    <label for="phone">Phone / WhatsApp Number:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="e.g. 082 123 4567"><br><br>
+
+                    <label for="location">Suburban Area in Gqeberha:</label><br>
+                    <input type="text" id="location" name="location" placeholder="e.g. Summerstrand, Newton Park"><br><br>
+                </fieldset>
+
+                <br>
+
+                <!-- Enquiry Category Fieldset -->
+                <fieldset>
+                    <legend><strong>Enquiry & Participation Details</strong></legend>
+                    <br>
+
+                    <label for="category">Enquiry Category:</label><br>
+                    <select id="category" name="category" required>
+                        <option value="" disabled selected>-- Select an Enquiry Type --</option>
+                        <option value="volunteer">Volunteer Sign-Up (Coastal Cleanups / Penguin Rehabilitation)</option>
+                        <option value="school">School / Educational Group Booking</option>
+                        <option value="sponsorship">Corporate Sponsorship & Donations</option>
+                        <option value="general">General Enquiry</option>
+                    </select><br><br>
+
+                    <label>Preferred Availability for Volunteering:</label><br>
+                    <input type="checkbox" id="avail_saturday" name="availability[]" value="Saturday">
+                    <label for="avail_saturday">Saturday Mornings (Cleanups)</label><br>
+                    
+                    <input type="checkbox" id="avail_sunday" name="availability[]" value="Sunday">
+                    <label for="avail_sunday">Sunday Mornings</label><br>
+                    
+                    <input type="checkbox" id="avail_weekdays" name="availability[]" value="Weekdays">
+                    <label for="avail_weekdays">Weekday Afternoons (Rehabilitation / Talks)</label><br><br>
+
+                    <label for="message">Your Message or Specific Request:</label><br>
+                    <textarea id="message" name="message" rows="6" cols="50" placeholder="Please tell us more about your enquiry or how you'd like to get involved..." required></textarea><br><br>
+                </fieldset>
+
+                <br>
+
+                <!-- Submit Button -->
+                <button type="submit">Submit Enquiry</button>
+                <button type="reset">Reset Form</button>
+            </form>
+        </section>
+    </main>
 
 
-<main>
- <form>
- <label for="Surname">Surname</label>  
- <input id="Surname" Surname="Surname" required>
- <button type="submit">
- </form>   
-</main>
-
-<main>
- <form>
- <label for="Email">Email</label>  
- <input id="Email" Email="Email" required>
- <button type="submit">Send</button>
- </form>   
-</main>
 
 
-<main>
- <form>
- <label for="Contact Number">Contact Number</label>  
- <input id="Contact Number" Contact Number="Email" required>
- <button type="submit">
- </form>   
-</main>
 
-<main>
- <form>
- <label for="Enquiry Type">Enquiry</label>  
- <input id="Enquiry Type" Enquiry Type="Enquiry Type" required>
- <button type="submit">
- </form>   
-</main>
 
-<main>
- <form>
- <label for="Comment">Comment</label>  
- <input id="Comment" Comment="Comment" required>
- <button type="submit">
- </form>   
-</main>
+
+
+
+
+
+
+
+
+
 
 
 
