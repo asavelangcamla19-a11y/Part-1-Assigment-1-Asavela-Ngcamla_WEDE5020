@@ -25,7 +25,6 @@ Kasi_Tech/
     ├── Costal Cleanups.jpg
     ├── ecosystem.jpg
     ├── Penguin.jpg
-    
     ├── Gear Safety.jpg
 
     
@@ -33,7 +32,7 @@ Kasi_Tech/
 
 ## How to run
 
-1. Extract the ZIP file.
+1. Extract the `Assigment 1 Part 1 A.Ngcamla`  ZIP file.
 2. Open the `Marine Eco System` folder.
 3. Double-click `index.html`, or open it using a web browser.
 4. Use the navigation menu to visit all five pages.
@@ -51,7 +50,7 @@ The proposal did not include confirmed business contact details. Search all HTML
 
 ## Forms
 
-The inquiry and contact forms use HTML validation and `mailto:` submission. When a visitor submits a form, the browser opens the visitor's configured email application. A hosted production website should later connect these forms to a secure server-side form handler or database.
+The inquiry and contact forms use HTML validation and submission. When a visitor submits a form, the browser opens the visitor's configured email application. A hosted production website should later connect these forms to a secure server-side form handler or database.
 
 ## HTML validation
 
