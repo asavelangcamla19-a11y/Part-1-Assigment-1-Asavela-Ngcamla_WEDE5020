@@ -76,3 +76,10 @@ Create an empty GitHub repository, then follow GitHub's instructions to add the 
 - No third-party image downloads, fonts, CSS frameworks or JavaScript libraries
 
 Proposed domain: `www.Marine_Eco System .co.za`
+
+
+## Github
+https://github.com/asavelangcamla19-a11y/Part-1-Assigment-1-Asavela-Ngcamla_WEDE5020
+
+## Netlify
+https://app.netlify.com/teams/asavelangcamla19-a11y/overview
